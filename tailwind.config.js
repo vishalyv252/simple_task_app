@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "Roboto": ["Roboto", "sans-serif"],
+        "Poppins": ["Poppins", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
